@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+    height: 100%;
+    padding-right: 30px;
+    padding-left: 30px;
+    position: relative; /* Establecer posición relativa para los pseudo-elementos */
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0; 
+    right: 0; 
+    bottom: 0;
+    z-index: -1;
+    background-image: url('/Edits/fondo_manga.webp');
+    background-size: fill;
+    opacity: 0.1; /* Ajustar la opacidad al 10% */
+}
+
+body {
+    background: #006c51;
+}
+
+
+/* Media query para ajustar el margen en pantallas pequeñas */
+@media (max-width: 768px) {
+    html, body {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+}
