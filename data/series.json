@@ -1,0 +1,61 @@
+{
+  "series": [
+    {
+      "id": 1,
+      "nombre": "Argoos_Doo",
+      "imagen": "/Edits/series/Argoos_Doo.jpg",
+      "sipnopsis": "Argos junto con sus amigos, se adentra en una aventura llena de intriga y acción, resolviendo pistas para desentrañar el enigma del Akundun",
+      "videos": [
+        "https://www.tiktok.com/@funcenterfc/video/7257327236276161797"
+      ]
+    },
+    {
+      "id": 2,
+      "nombre": "El_Emer_del_Choto",
+      "imagen": "/Edits/series/El_Emer_del_Choto.png",
+      "sipnopsis": "Sigue las travesuras del travieso Emer mientras se desenvuelve en su peculiar vecindario. Con personajes excéntricos y situaciones cómicas, esta serie promete risas y diversión",
+      "videos": [
+        "https://www.tiktok.com/@funcenterfc/video/7187196225400130821",
+        "https://www.tiktok.com/@funcenterfc/video/7189790841144134917",
+        "https://www.tiktok.com/@funcenterfc/video/7192386402854669573"
+      ]
+    },
+    {
+      "id": 3,
+      "nombre": "El_Gran_Chef_Funlizardo",
+      "imagen": "/Edits/series/El_Gran_Chef_Funlizardo.jpg",
+      "sipnopsis": "Desde experimentos culinarios audaces hasta desafíos gastronómicos, cada episodio presenta una nueva y emocionante aventura para los funlizardos",
+      "videos": [
+        "https://www.tiktok.com/@funcenterfc/video/7267966681698389254"
+      ]
+    },
+    {
+      "id": 4,
+      "nombre": "Fantasmas_de_Josesitomaru",
+      "sipnopsis": "Sigue la fascinante historia de Josesitomaru Scrooge, un avaro y gruñón empresario, quien, tras ser visitado por una serie de fantasmas en la víspera de Navidad, emprende un viaje de auto-descubrimiento y redención.",
+      "imagen": "/Edits/series/Fantasmas_de_Josesitomaru.jpg",
+      "videos": [
+        "https://www.tiktok.com/@funcenterfc/video/7314480420559637765"
+      ]
+    },
+    {
+      "id": 5,
+      "nombre": "Josesitomaru_Potter",
+      "sipnopsis": "En 'Josesitomaru_Potter y la Piedra de San Marcos', sigue las emocionantes aventuras de Josesitomaru, un joven mago con un destino extraordinario.",
+      "imagen": "/Edits/series/Josesitomaru_Potter.jpg",
+      "videos": [
+        "https://www.tiktok.com/@funcenterfc/video/7269525646924156165"
+      ]
+    },
+    {
+      "id": 6,
+      "nombre": "Josesitomaru-Grinch",
+      "sipnopsis": "EL REAL CUENTO FUNLIZARDO DE NAVIDAD, QUE CONMOVERA MAS DE UN CORAZON !!!",
+      "imagen": "/Edits/series/Josesitomaru_Grinch.png",
+      "videos": [
+        "https://www.tiktok.com/@funcenterfc/video/7177547284366839045",
+        "https://www.tiktok.com/@funcenterfc/video/7178188286576299270"
+      ]
+    }
+  ]
+}
