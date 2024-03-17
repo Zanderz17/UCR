@@ -9,10 +9,13 @@ function SeriesPage() {
   useEffect(() => {
     fetch('https://Zanderz17.github.io/UCR/data/series.json')
       .then(response => response.json())
-      .then(data => setSeries(data.series))
+      .then(data => {
+        setSeries(data.series);
+        console.log(data);
+      })
       .catch(error => console.error('Error fetching data:', error));
   }, []);
-
+  
   const handleSerieClick = (id) => {
     navigate(`/series/${id}`); 
   };
@@ -32,13 +35,13 @@ function SeriesPage() {
         <h3 className="hidden md:block font-semibold text-xl text-gray-300 text-center mb-5">Universo Cinematográfico del Rufián</h3>
         <div className="flex flex-row justify-center items-center gap-6 ml-auto">
               <a href="https://www.youtube.com/c/FUNCENTERPRODUCTIONSPERU/videos" target="_blank" rel="noopener noreferrer">
-                <img src="/icons/youtube.png" alt="Youtube Funcenter" className="object-fill"/>
+                <img src="https://Zanderz17.github.io/UCR/icons/youtube.png" alt="Youtube Funcenter" className="object-fill"/>
               </a>
               <a href="https://www.tiktok.com/@funcenterfc" target="_blank" rel="noopener noreferrer">
-                <img src="/icons/tiktok.png" alt="TikTok Funcenter" className="object-fill"/>
+                <img src="https://Zanderz17.github.io/UCR/icons/tiktok.png" alt="TikTok Funcenter" className="object-fill"/>
               </a>
               <a href="https://www.facebook.com/FuncenterFC" target="_blank" rel="noopener noreferrer">
-                <img src="/icons/facebook.png" alt="FaceBook Funcenter" className="object-fill" />
+                <img src="https://Zanderz17.github.io/UCR/icons/facebook.png" alt="FaceBook Funcenter" className="object-fill" />
               </a>
         </div>
       </div>
