@@ -1,12 +1,13 @@
 import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 
+
 function SeriesPage() {
   const [series, setSeries] = useState([]);
   const navigate = useNavigate(); 
 
   useEffect(() => {
-    fetch('/data/series.json')
+    fetch('https://Zanderz17.github.io/UCR/data/series.json')
       .then(response => response.json())
       .then(data => setSeries(data.series))
       .catch(error => console.error('Error fetching data:', error));
