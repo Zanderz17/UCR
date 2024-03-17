@@ -8,7 +8,7 @@ function SerieDetails() {
   const [currentVideoIndex, setCurrentVideoIndex] = useState(0);
 
   useEffect(() => {
-    fetch("/data/series.json")
+    fetch("https://Zanderz17.github.io/UCR/data/series.json")
       .then(response => response.json())
       .then(data => {
         const foundSerie = data.series.find(item => item.id.toString() === id);
@@ -42,8 +42,8 @@ function SerieDetails() {
         </div>
         <h1 className="font-semibold text-xl text-white text-center border-b- mt-10 md:mt-0" style={{ textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)' }}>Total de Capitulos: {serie.videos.length} / Capitulo Actual: {currentVideoIndex + 1}</h1>
         <div className="flex flex-row gap-40 md:gap-60">
-          <img src="/icons/back.png" alt="Back" className="object-fill cursor-pointer" onClick={goToPreviousVideo} />
-          <img src="/icons/next.png" alt="Next" className="object-fill cursor-pointer" onClick={goToNextVideo} />
+          <img src="https://Zanderz17.github.io/UCR/icons/back.png" alt="Back" className="object-fill cursor-pointer" onClick={goToPreviousVideo} />
+          <img src="https://Zanderz17.github.io/UCR/icons/next.png" alt="Next" className="object-fill cursor-pointer" onClick={goToNextVideo} />
         </div>
       </div>
       <div>
